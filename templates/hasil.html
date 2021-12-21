@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Prediksi</title>
+    <!---style hasil-->
+    <style>
+        * {
+            text-decoration: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Plus Jakarta Sans',sans=serif;
+            background-color:bisque;
+        }
+        section#hasil{
+            position: relative;
+            max-width: 50%;
+            margin: auto;
+            margin-top: 20px;
+            border-radius: 6px;
+            background-color: #FFFFFF;
+            box-shadow: 0 0 7px 0px rgba(136, 146, 146, 0.2);
+            padding: 30px;
+        }
+        .menu-mobile{
+            position: relative;
+            float: right;
+            display: none;
+        }
+        .menu-mobile a{
+            color: bisque;
+            font-size: 14px;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 5px 10px 5px 10px;
+            border: 1px solid beige;
+        }
+        h1{
+            font-family: "Helvetica", sans-serif;
+            outline: none;
+            margin: auto;
+            font-size: 80px;
+            text-align: center;
+        }
+        p{
+            font-family: "Helvetica", sans-serif;
+            outline: none;
+            margin-top: 30px;
+            font-size: 30px;
+            text-align: center;
+        }
+        nav {
+            position: relative;
+            width: 100%;
+            height: 60px;
+            background-color: #fff99f;
+            box-shadow: -1px -7px 20px 0px bisque;
+        }
+
+        nav ul {
+            position: relative;
+            top: 20px;
+            margin: 0;
+            float: left;
+            right: 10%;
+        }
+
+        nav ul li {
+            float: left;
+            display: block;
+            margin: 0px 15px 0px 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            position: relative;
+            margin-left: 390px;
+            font-family: "Helvetica", sans-serif;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            background-color: #2E4C6D;
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 15px 20px 15px 20px;
+            color: #FFFFFF;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+
+    
+    </style>
+</head>
+<body>
+    <section id="hasil">
+        <div>
+            <h1>
+                Hasil Prediksi :
+            </h1>
+            
+            <h1>
+                {{hasil_prediksi}}
+            </h1>
+            
+            <div>
+                <p>PM10 : {{ pm10 }}</p>
+                <p>SO2  : {{ so2 }}</p>
+                <p>CO   : {{ co }}</p>
+                <p>O3   : {{ o3 }}</p>
+                <p>NO2  : {{ no2 }}</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="hasil">
+        <nav>
+            <div class="menu-mobile">
+                <a href="">Menu</a>
+            </div>
+            <ul>
+                <li><a href="/">KEMBALI</a></li>
+            </ul>
+        </nav>
+    </section>
+        
+</body>
+</html>
