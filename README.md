@@ -1,5 +1,7 @@
 # FinalProject_CekKondisiUdara
 
+Aplikasi ini dapat digunakan untuk memprediksi bagaimana keadaan/kondisi udara saat ini berdasarkan beberapa parameter. Model pada aplikasi ini menggunakan ANN dan data train dari tahun 2013-2021. Aplikasi dapat diakses melalui https://cek-kondisi-udara.herokuapp.com/
+
 Tugas Akhir ini merupakan tugas pada Pelatihan Microcredential Certification Associate Data Scientist tahun 2021. Daftar Nama Kelompok yang mengerjakan tugas akhir ini adalah: 
 
 Febby Anindya Dwi Lestari, Muhammad Farhan Aditama, Nia Amelia
