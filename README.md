@@ -4,8 +4,8 @@ Aplikasi ini dapat digunakan untuk memprediksi bagaimana keadaan/kondisi udara s
 
 Tugas Akhir ini merupakan tugas pada Pelatihan Microcredential Certification Associate Data Scientist tahun 2021. Daftar Nama Kelompok yang mengerjakan tugas akhir ini adalah: 
 
-Febby Anindya Dwi Lestari, Muhammad Farhan Aditama, Nia Amelia
-Kelompok ini merupakan peserta pelatihan di Kelas UDINUS01, dengan host pelaksana adalahUniversitas Dian Nuswantoro. 
+Febby Anindya Dwi Lestari, Muhammad Farhan Aditama, Nia Amelia.
+Kelompok ini merupakan peserta pelatihan di Kelas UDINUS01, dengan host pelaksana adalah Universitas Dian Nuswantoro. 
 
 Penjelasan singkat mengenai Pelatihan: 
 
